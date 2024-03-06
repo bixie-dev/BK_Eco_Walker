@@ -1,0 +1,10 @@
+.idea
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+run_tracker.iml
+.packages
+test
+.dart_tool
+build
+.fvm

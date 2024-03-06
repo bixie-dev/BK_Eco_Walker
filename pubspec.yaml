@@ -1,0 +1,157 @@
+name: run_tracker
+description: A new Flutter project.
+
+publish_to: 'none'
+
+# Flutter Version :- 3.16.5
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  shared_preferences: ^2.2.2
+  fluttertoast: ^8.2.4
+  permission_handler: ^11.1.0
+  syncfusion_flutter_gauges: ^24.1.44
+  google_maps_flutter: ^2.5.1
+  location: ^5.0.3
+  geolocator: ^10.1.0
+  flutter_polyline_points: ^2.0.0
+  pedometer: ^4.0.1
+  lottie: ^2.7.0
+  flutter_rating_bar: ^4.0.1
+  floor: ^1.4.1
+  path_provider: ^2.0.14
+  solid_bottom_sheet: ^0.1.10
+  date_picker_timeline: ^1.2.5
+  fl_chart: ^0.66.0
+  stop_watch_timer: ^3.0.2
+  date_format: ^2.0.7
+  flutter_local_notifications: ^16.2.0
+  flutter_native_timezone: ^2.0.0
+  charts_flutter_new: ^0.12.0
+  share_plus: ^7.2.1
+  url_launcher: ^6.2.2
+  auto_size_text: ^3.0.0
+  rate_my_app: ^2.0.0
+  google_mobile_ads: ^4.0.0
+  app_tracking_transparency: ^2.0.4
+
+  intl: any
+  timezone: any
+  sqflite: any
+  rxdart: any
+  geolocator_web: any
+  location_web: any
+  shared_preferences_web: any
+  url_launcher_web: any
+  flutter_web_plugins:
+    sdk: flutter
+dependency_overrides:
+  platform: ^3.1.0
+  intl : 0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: ^1.4.1
+  build_runner: ^2.4.7
+
+
+flutter:
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Light.ttf
+          weight: 300
+        - asset: fonts/Roboto-Regular.ttf
+          weight: 400
+        - asset: fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 600
+        - asset: fonts/Roboto-Black.ttf
+          weight: 700
+
+
+
+  uses-material-design: true
+
+  assets:
+   - assets/
+   - assets/icons/
+   - assets/icons/water/
+   - assets/icons/ic_back.png
+   - assets/icons/ic_person_walk.png
+   - assets/icons/ic_person_run.png
+   - assets/icons/ic_footstep.webp
+   - assets/icons/ic_steps.png
+   - assets/icons/ic_water.png
+   - assets/icons/ic_route_map.png
+   - assets/icons/ic_best_pace.png
+   - assets/icons/ic_distance.webp
+   - assets/icons/ic_duration.webp
+   - assets/icons/ic_male.png
+   - assets/icons/ic_info_white.png
+   - assets/icons/ic_female.png
+   - assets/icons/ic_select_pointer.png
+   - assets/icons/ic_setalite.png
+   - assets/icons/ic_person_bottombar.webp
+   - assets/icons/ic_map_permission.png
+   - assets/icons/ic_setting_circular.png
+   - assets/icons/ic_emoji_bad.webp
+   - assets/icons/ic_emoji_good.webp
+   - assets/icons/ic_emoji_great.webp
+   - assets/icons/ic_setting.png
+   - assets/icons/ic_emoji_okay.webp
+   - assets/icons/ic_emoji_terrible.webp
+   - assets/icons/ic_star.webp
+   - assets/icons/ic_setting_round.png
+   - assets/icons/ic_round_true.webp
+   - assets/icons/ic_best_pace_light.webp
+   - assets/icons/ic_distance_light.webp
+   - assets/icons/ic_duration_light.webp
+   - assets/icons/ic_selected_profile_bottombar.webp
+   - assets/icons/ic_unselected_profile_bottombar.webp
+   - assets/icons/ic_selected_home_bottombar.webp
+   - assets/icons/ic_unselected_home_bottombar.webp
+   - assets/icons/ic_options.png
+   - assets/icons/ic_arrow_green_gradient.png
+   - assets/icons/ic_options_steps_indicator.png
+   - assets/icons/ic_edit.png
+   - assets/icons/ic_reset.png
+   - assets/icons/ic_turn_off.png
+   - assets/icons/ic_statistics.png
+   - assets/icons/ic_star_blue.png
+   - assets/icons/ic_trouble_shooting.png
+   - assets/icons/ic_yellow_gradient_circle.png
+   - assets/icons/ic_red_gradient_circle.png
+   - assets/icons/ic_add.png
+   - assets/icons/ic_minus.png
+   - assets/icons/low_intensity_icon.png
+   - assets/icons/modrate_intensity_icon.png
+   - assets/icons/high_intensity_icon.png
+   - assets/icons/ic_notification_white.webp
+   - assets/icons/ic_units.webp
+   - assets/icons/ic_calender.webp
+   - assets/icons/ic_email.webp
+   - assets/icons/ic_languages.webp
+   - assets/icons/ic_privacy_policy.webp
+   - assets/icons/ic_star_white.webp
+   - assets/icons/ic_info.png
+   - assets/images/
+   - assets/images/dummy_girl.png
+   - assets/images/finish_image.png
+   - assets/images/bg_countdown_timer_blue.webp
+   - assets/images/bg_countdown_timer_green.webp
+   - assets/animation/
+   - assets/animation/countdown_blue.json
+   - assets/animation/countdown_green.json
